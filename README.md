@@ -6,8 +6,9 @@
 
 
 
+
+
 ```tsx
-import axios from 'axios'
 import { GetServerSideProps } from 'next'
 import { InferGetServerSidePropsType } from 'next'
 
