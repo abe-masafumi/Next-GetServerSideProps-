@@ -6,6 +6,7 @@ import axios from 'axios'
 import { GetServerSideProps } from 'next'
 import { InferGetServerSidePropsType } from 'next'
 
+// getServerSideProps:ドキュメント参照
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const res = await fetch(`https://abe-masafumi.github.io/TestMetaData/MetaData.json`)
   const data = await res.json()
