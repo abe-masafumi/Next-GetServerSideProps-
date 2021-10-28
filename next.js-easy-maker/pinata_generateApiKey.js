@@ -1,5 +1,6 @@
 const axios = require('axios');
 // pinataのapikeyを作成する:https://docs.pinata.cloud/user/generate-api-key#body
+// porpsのkeyは管理者のものを使用
 // ユーザーレンダリングで実行
 export const generateApiKey = (pinataApiKey, pinataSecretApiKey) => {
   const url = `https://api.pinata.cloud/users/generateApiKey`;
